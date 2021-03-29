@@ -9,3 +9,10 @@ h1{
 html {
     scroll-behavior: smooth;
 }
+img{
+    transition- transform .2s;
+    border: 10px solid #AAAAA;
+}
+img:hover{
+    transform: scale(.09);
+}
